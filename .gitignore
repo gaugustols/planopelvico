@@ -1,0 +1,63 @@
+# Dependencies and package manager caches
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.pnp.*
+
+# Build output and framework caches
+dist/
+build/
+out/
+coverage/
+.next/
+.nuxt/
+.output/
+.astro/
+.cache/
+.turbo/
+*.tsbuildinfo
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+.aws/
+.ssh/
+.secrets/
+secrets/
+credentials.json
+credentials.*.json
+service-account*.json
+service_account*.json
+
+# Local publishing state
+.vercel/
+.netlify/
+.wrangler/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Machine-specific editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local agent state
+.codex/
+.agents/
