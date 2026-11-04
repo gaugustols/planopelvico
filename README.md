@@ -4,13 +4,26 @@ Projeto independente para o desenvolvimento de uma landing page de infoproduto.
 
 Repositório: https://github.com/gaugustols/planopelvico
 
-## Estado inicial
+## Página provisória
 
-- Estrutura inicial do repositório preparada.
-- Stack, conteúdo e design serão definidos em etapas posteriores.
-- Nenhuma configuração de publicação foi adicionada ou importada de outro projeto.
+A página exibe somente o nome "Plano Pélvico 7D" e a mensagem "Em preparação".
+A copy, o design e as funcionalidades da landing page definitiva serão definidos posteriormente.
 
-## Desenvolvimento
+## Estrutura
+
+- `index.html`: entrada da página na raiz.
+- `assets/css/styles.css`: estilos responsivos.
+- `assets/js/main.js`: arquivo reservado para interações futuras.
+- `vercel.json`: configuração de hospedagem estática, sem build, com saída na raiz.
+
+## Desenvolvimento e publicação
+
+Não há dependências para instalar nem etapa de build. Abra `index.html` no navegador
+para visualizar a página provisória.
+
+O repositório mantém a conexão existente com a Vercel. O envio para `main` permite
+que a integração existente publique a atualização em https://planopelvico.vercel.app.
+A configuração de publicação foi criada para este projeto.
 
 Mantenha credenciais e variáveis de ambiente em arquivos locais ignorados pelo Git.
 Se necessário, versione apenas um `.env.example` com valores fictícios.
