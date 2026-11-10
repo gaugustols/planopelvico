@@ -563,13 +563,13 @@ a:focus-visible,button:focus-visible,summary:focus-visible {
   position:absolute;
   z-index:1;
   top:-15px;
-  left:50%;
+  left:16px;
   display:flex;
   align-items:center;
   gap:8px;
-  transform:translateX(-50%);
+  transform:none;
   width:max-content;
-  max-width:95%;
+  max-width:calc(100% - 32px);
   padding:8px 20px;
   border-radius:99px;
   color:#fff;
