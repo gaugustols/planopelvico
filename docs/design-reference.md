@@ -5,7 +5,7 @@ Referência fornecida pelo usuário: https://lymphura.com/ (consultada em 10/11/
 ## Estrutura
 
 1. Barra informativa, marca e navegação.
-2. Hero em duas colunas: copy, preço, CTA e mockup ilustrativo do guia.
+2. Hero com mockup centralizado abaixo da marca, seguido de copy, preço e CTA.
 3. Conteúdo incluído: imagem, seis cards numerados e painel do guia.
 4. Identificação: introdução e quatro cards de dificuldades.
 5. Método: ilustração conceitual, explicação e três blocos numéricos da copy.

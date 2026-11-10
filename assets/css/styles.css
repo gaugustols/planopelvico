@@ -438,7 +438,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible {
 .hero {
   position:relative;
   overflow:hidden;
-  padding-top:92px;
+  padding-top:32px;
   padding-bottom:100px;
   background:radial-gradient(ellipse at 14% 13%,#edf3f0 0,transparent 43%),var(--cream)
 }
@@ -458,15 +458,17 @@ a:focus-visible,button:focus-visible,summary:focus-visible {
 .hero-shell {
   position:relative;
   display:grid;
-  grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  grid-template-columns:minmax(0,1fr);
+  justify-items:center;
   align-items:center;
-  gap:64px;
+  gap:56px;
   width:min(100% - 64px,1400px);
   margin:auto
 }
 
 .hero-copy {
-  max-width:640px
+  width:100%;
+  max-width:840px
 }
 
 .hero .eyebrow {
@@ -533,7 +535,10 @@ a:focus-visible,button:focus-visible,summary:focus-visible {
 
 .hero-visual {
   position:relative;
-  align-self:center
+  align-self:center;
+  width:100%;
+  max-width:560px;
+  margin-inline:auto
 }
 
 .product-art {
@@ -1586,10 +1591,10 @@ dialog p {
 
 @media(min-width:1500px) {
   .hero-shell {
-    gap:80px
+    gap:56px
   }
   .hero-copy {
-    max-width:650px
+    max-width:840px
   }
 }
 
@@ -1645,14 +1650,14 @@ dialog p {
   }
   .hero-shell {
     grid-template-columns:1fr;
-    gap:60px;
+    gap:40px;
     max-width:720px
   }
   .hero-copy {
     max-width:100%
   }
   .hero-visual {
-    max-width:620px;
+    max-width:560px;
     width:100%;
     margin:auto
   }
@@ -1663,7 +1668,7 @@ dialog p {
     font-size:19px
   }
   .hero {
-    padding-top:60px
+    padding-top:32px
   }
   .split-grid {
     grid-template-columns:1fr;
@@ -1765,11 +1770,11 @@ dialog p {
     padding-block:64px
   }
   .hero {
-    padding-top:45px;
+    padding-top:24px;
     padding-bottom:60px
   }
   .hero-shell {
-    gap:48px
+    gap:32px
   }
   .hero h1 {
     font-size:40px;
