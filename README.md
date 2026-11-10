@@ -1,43 +1,50 @@
 # Plano Pélvico 7D
 
-Projeto independente para o desenvolvimento de uma landing page de infoproduto.
+Landing page estática e independente para o Plano Pélvico 7D.
 
-Repositório: https://github.com/gaugustols/planopelvico
+- Repositório: https://github.com/gaugustols/planopelvico
+- Publicação: https://planopelvico.vercel.app
 
-## Estado atual
+## Estrutura e conteúdo
 
-A copy fornecida foi incluída em sete seções, mantendo sua ordem e seu texto.
-O preço da oferta e do CTA de compra foi atualizado conforme a orientação posterior:
-R$ 29,90 ou 6x de R$ 4,98. Os demais valores da copy foram preservados.
+A composição segue as 15 seções da referência visual enviada, https://lymphura.com/,
+adaptadas para a marca e a oferta Plano Pélvico 7D. Todos os 139 blocos da copy
+aprovada foram preservados, reorganizados entre as seções. O preço permanece em
+R$ 29,90 ou 6x de R$ 4,98, e a garantia permanece em 7 dias.
 
-A estrutura visual é simples e responsiva, aguardando as referências de design.
-Nenhuma imagem foi adicionada. Os rótulos editoriais, as instruções de layout e
-a microcopy opcional de garantia de 30 dias não são exibidos como conteúdo da página.
-A garantia de 7 dias do corpo principal da copy foi mantida.
+Foram acrescentados navegação, FAQ, informações de privacidade e responsabilidade,
+rodapé, ícones e imagens ilustrativas próprias. Não foram copiados textos, marca,
+fotos, vídeos, materiais ou scripts da referência. Não foram inventados novos
+depoimentos, avaliações verificadas, credenciais, resultados ou meios de pagamento.
 
-## Estrutura
-
-- `index.html`: entrada da página na raiz, com toda a copy.
-- `assets/css/styles.css`: estilos responsivos provisórios.
-- `assets/js/main.js`: configuração e ativação dos botões de checkout.
-- `vercel.json`: configuração de hospedagem estática, sem build, com saída na raiz.
+- `index.html`: conteúdo e estrutura das seções.
+- `assets/css/styles.css`: estilos responsivos.
+- `assets/js/main.js`: menu, barra de oferta, privacidade e checkout.
+- `assets/images/`: imagens ilustrativas originais, ícones e favicon.
+- `assets/fonts/`: fontes abertas locais e suas licenças.
+- `tests/fixtures/approved-copy.json`: texto aprovado para verificação de integridade.
+- `scripts/verify-site.cjs`: verificações estáticas de conteúdo e recursos.
+- `docs/design-reference.md`: decisões de adaptação e prompts dos recursos visuais.
 
 ## Checkout
 
-Os links de checkout ainda não foram definidos. Os botões de compra, incluindo
-o botão fixo no celular, permanecem desativados. Os links entre seções funcionam
-sem JavaScript. Quando o checkout for definido, preencher `CHECKOUT_URL` em
-`assets/js/main.js` com a URL HTTPS aprovada.
+Os links de checkout ainda não foram definidos. Os botões de compra permanecem
+desativados. Quando o destino for aprovado, preencher `CHECKOUT_URL` em
+`assets/js/main.js` com uma URL HTTPS válida. Não há rastreamento publicitário,
+formulários de cadastro nem chamadas para serviços de terceiros no navegador.
 
-## Desenvolvimento e publicação
+## Desenvolvimento e testes
 
-Não há dependências para instalar nem etapa de build. Abra `index.html` no navegador
-para visualizar a página.
+Não há dependências para instalar nem etapa de build. O arquivo de entrada é
+`index.html` na raiz. Abra o arquivo no navegador ou use um servidor HTTP estático
+para testar fontes, ícones e imagens.
 
-O repositório mantém a conexão existente com a Vercel. O envio para `main` permite
-que a integração existente publique a atualização em https://planopelvico.vercel.app.
-A configuração de publicação foi criada para este projeto.
+Com Node.js disponível:
+
+    node --check assets/js/main.js
+    node scripts/verify-site.cjs
+
+A publicação mantém o vínculo GitHub/Vercel existente, com build desativado e saída
+na raiz em `vercel.json`. Nenhuma configuração de outro projeto foi reutilizada.
 
 Mantenha credenciais e variáveis de ambiente em arquivos locais ignorados pelo Git.
-Se necessário, versione apenas um `.env.example` com valores fictícios.
-Revise os arquivos preparados para commit antes de cada envio.
