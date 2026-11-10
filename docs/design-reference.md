@@ -55,3 +55,10 @@ Prompt final:
 Prompt final:
 
 > Use case: photorealistic-natural. Asset type: original wellness website editorial lifestyle image, portrait 4:5 composition. An anonymous Brazilian-looking woman around 45-55, natural face, shoulder-length brown hair with a few silver strands, wearing an unbranded ivory linen shirt and soft sage trousers, sitting comfortably near a large sunlit window in a calm warm cream home, quietly reading on a slim tablet. Gentle relaxed expression, believable mature skin texture, hands natural and anatomically accurate. Soft linen, a leafy indoor plant, cream plaster wall, muted sage and deep teal accents. Understated elevated editorial photography, natural morning light and soft shadows. No text, no logos, no medical setting, no exercise demonstration, no identifiable real person. Do not portray a testimonial or a patient or imply any treatment result. This image is atmospheric and illustrative. Natural photo, no exaggerated smile, no airbrushed advertising aesthetic.
+
+## Atualização do mockup
+
+O mockup em uso foi substituído pela versão 2, adaptada da imagem de referência
+enviada posteriormente pelo usuário. A arte em português mantém a composição
+solicitada e está documentada em [mockup-v2.md](mockup-v2.md). O mockup original
+gerado anteriormente permanece preservado no projeto.

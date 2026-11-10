@@ -13,8 +13,9 @@ aprovada foram preservados, reorganizados entre as seções. O preço permanece 
 R$ 29,90 ou 6x de R$ 4,98, e a garantia permanece em 7 dias.
 
 Foram acrescentados navegação, FAQ, informações de privacidade e responsabilidade,
-rodapé, ícones e imagens ilustrativas próprias. Não foram copiados textos, marca,
-fotos, vídeos, materiais ou scripts da referência. Não foram inventados novos
+rodapé, ícones e imagens ilustrativas próprias. O mockup foi atualizado com uma adaptação da imagem enviada posteriormente pelo usuário,
+com idioma e conteúdo do Plano Pélvico 7D; veja docs/mockup-v2.md. Não foram importados
+a marca, a copy comercial ou scripts de terceiros. Não foram inventados novos
 depoimentos, avaliações verificadas, credenciais, resultados ou meios de pagamento.
 
 - `index.html`: conteúdo e estrutura das seções.
@@ -25,6 +26,7 @@ depoimentos, avaliações verificadas, credenciais, resultados ou meios de pagam
 - `tests/fixtures/approved-copy.json`: texto aprovado para verificação de integridade.
 - `scripts/verify-site.cjs`: verificações estáticas de conteúdo e recursos.
 - `docs/design-reference.md`: decisões de adaptação e prompts dos recursos visuais.
+- `docs/mockup-v2.md`: adaptação em português do novo mockup enviado pelo usuário.
 
 ## Checkout
 
