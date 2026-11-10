@@ -8,8 +8,8 @@ Landing page estática e independente para o Plano Pélvico 7D.
 ## Estrutura e conteúdo
 
 A composição segue as 15 seções da referência visual enviada, https://lymphura.com/,
-adaptadas para a marca e a oferta Plano Pélvico 7D. Todos os 139 blocos da copy
-aprovada foram preservados, reorganizados entre as seções. O preço permanece em
+adaptadas para a marca e a oferta Plano Pélvico 7D. Os 138 blocos atuais da copy
+aprovada são verificados automaticamente e estão organizados entre as seções. O preço permanece em
 R$ 29,90 ou 6x de R$ 4,98, e a garantia permanece em 7 dias.
 
 Foram acrescentados navegação, FAQ, informações de privacidade e responsabilidade,

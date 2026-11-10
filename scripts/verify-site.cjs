@@ -7,13 +7,14 @@ const html = fs.readFileSync(path.join(root, "index.html"), "utf8");
 const cssPath = path.join(root, "assets/css/styles.css");
 const css = fs.readFileSync(cssPath, "utf8");
 const original = JSON.parse(fs.readFileSync(path.join(root, "tests/fixtures/approved-copy.json"), "utf8"));
+const expectedCount = original.filter(text => text !== null).length;
 const normalize = text => text.replace(/<[^>]*>/g, "").replaceAll("&quot;", '"').replaceAll("&lt;", "<").replaceAll("&gt;", ">").replaceAll("&amp;", "&").replace(/\s+/g, " ").trim();
 const preserved = [...html.matchAll(/<([a-z][a-z0-9]*)\b[^>]*\bdata-copy="(\d+)"[^>]*>([\s\S]*?)<\/\1>/g)];
-assert.equal(preserved.length, original.length, "Every approved copy block must be present exactly once");
+assert.equal(preserved.length, expectedCount, "Every approved copy block must be present exactly once");
 const copyIds = preserved.map(match => Number(match[2]));
-assert.equal(new Set(copyIds).size, original.length, "No repeated approved-copy identifiers");
+assert.equal(new Set(copyIds).size, expectedCount, "No repeated approved-copy identifiers");
 for (const match of preserved) assert.equal(normalize(match[3]), normalize(original[Number(match[2])]), "Changed approved copy block " + match[2]);
-console.log("PASS: all " + original.length + " approved copy blocks preserved exactly");
+console.log("PASS: all " + expectedCount + " approved copy blocks preserved exactly");
 
 assert.match(html, /<html lang="pt-BR">/);
 assert.match(html, /name="viewport" content="width=device-width, initial-scale=1"/);

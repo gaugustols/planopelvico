@@ -33,7 +33,8 @@ a garantia e o conteúdo pertencem ao Plano Pélvico, sem importar ofertas da re
 - Botões em formato de cápsula, cards de raio 20px e seções de 112px no desktop.
 - Interface responsiva, foco visível, menu acessível, acordeões nativos e respeito à preferência de movimento reduzido.
 
-A copy foi mantida literalmente nos elementos data-copy de 0 a 138. Os rótulos
+A copy aprovada é verificada pelos identificadores data-copy de 0 a 138, exceto
+o bloco 6, removido a pedido do usuário. Os rótulos
 complementares, FAQ e informações institucionais são novos. Os botões de compra
 seguem desativados enquanto o checkout não for definido. Não há contador falso,
 novas promessas médicas, novos depoimentos ou bandeiras de pagamento não confirmadas.
