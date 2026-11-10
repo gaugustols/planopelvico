@@ -62,3 +62,7 @@ O mockup em uso foi substituído pela versão 2, adaptada da imagem de referênc
 enviada posteriormente pelo usuário. A arte em português mantém a composição
 solicitada e está documentada em [mockup-v2.md](mockup-v2.md). O mockup original
 gerado anteriormente permanece preservado no projeto.
+
+O último quadro foi atualizado para o ícone de download e o texto solicitado
+“Acesso vitalício para baixar e usar”. A versão em uso é a 3; ver
+[mockup-v3.md](mockup-v3.md). As versões anteriores foram preservadas.

@@ -26,7 +26,8 @@ depoimentos, avaliações verificadas, credenciais, resultados ou meios de pagam
 - `tests/fixtures/approved-copy.json`: texto aprovado para verificação de integridade.
 - `scripts/verify-site.cjs`: verificações estáticas de conteúdo e recursos.
 - `docs/design-reference.md`: decisões de adaptação e prompts dos recursos visuais.
-- `docs/mockup-v2.md`: adaptação em português do novo mockup enviado pelo usuário.
+- `docs/mockup-v2.md`: adaptação em português do mockup enviado pelo usuário.
+- `docs/mockup-v3.md`: ajuste do último quadro para acesso vitalício, conforme solicitado.
 
 ## Checkout
 
