@@ -18,7 +18,9 @@ de ferramentas isolada e ignorada pelo Git. Nenhuma dependência foi adicionada 
 - Somente a luminosidade do destaque pélvico varia; a anatomia e a forma muscular não se movem.
 - A imagem é conceitual e não demonstra uma contração, exercício, diagnóstico ou efeito de tratamento.
 - Os quadros foram decodificados para conferir o ciclo, o número de quadros e a estabilidade da imagem fora da região destacada.
-- A animação não foi inserida no HTML; o layout e a copy atuais permanecem iguais.
+- A animação está inserida no bloco de abertura da seção de fases (#fases .intro-visual), conforme solicitado pelo usuário.
+- A legenda desse bloco foi removida. O restante da copy permanece igual.
+- Um elemento picture apresenta a versão estática quando a preferência de movimento reduzido está ativa.
 
 Referências anatômicas consultadas para orientar o posicionamento do destaque:
 [NIDDK — Kegel Exercises](https://www.niddk.nih.gov/health-information/urologic-diseases/kegel-exercises) e
