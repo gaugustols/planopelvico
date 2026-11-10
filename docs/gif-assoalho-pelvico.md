@@ -3,8 +3,8 @@
 ## Arquivos
 
 - assets/images/assoalho-pelvico-base.png: imagem-base original em alta resolução.
-- assets/images/assoalho-pelvico-pulsante.gif: animação otimizada de 720 × 720 px.
-- assets/images/assoalho-pelvico-poster.jpg: imagem estática para uso alternativo e movimento reduzido.
+- assets/images/assoalho-pelvico-pulsante-v2.gif: animação otimizada de 720 × 720 px.
+- assets/images/assoalho-pelvico-poster-v2.jpg: imagem estática para uso alternativo e movimento reduzido.
 - scripts/create-pelvic-gif.cjs: gerador reproduzível da animação.
 
 A imagem-base foi gerada com image_gen integrado, sem CLI de geração de imagens.
@@ -13,9 +13,9 @@ de ferramentas isolada e ignorada pelo Git. Nenhuma dependência foi adicionada 
 
 ## Animação e verificação
 
-- 40 quadros com 80 ms por quadro: ciclo de 3,2 segundos, em repetição contínua.
+- Versão 2: 60 quadros com 60 ms por quadro, ciclo de 3,6 segundos em repetição contínua.
 - Paleta global de até 256 cores e difusão de erro na fotografia para reduzir faixas de cor.
-- Somente a luminosidade do destaque pélvico varia; a anatomia e a forma muscular não se movem.
+- Ondas de luz se expandem e pontos luminosos percorrem o destaque pélvico. A pessoa, a anatomia e a forma muscular permanecem fixas.
 - A imagem é conceitual e não demonstra uma contração, exercício, diagnóstico ou efeito de tratamento.
 - Os quadros foram decodificados para conferir o ciclo, o número de quadros e a estabilidade da imagem fora da região destacada.
 - A animação está inserida no bloco de abertura da seção de fases (#fases .intro-visual), conforme solicitado pelo usuário.
@@ -44,3 +44,11 @@ Graphic: a delicate SEMITRANSPARENT CONCEPTUAL outline of the pelvic basin over 
 
 Composition intended for a later subtle pulsing highlight: keep the conceptual pelvic-floor sling unobscured by the hands, visible in the lower-middle of the image, centered horizontally. All other parts of the image should be calm and stationary. Do not animate or draw motion blur.
 No words, labels, numbers, logos, captions, prices, claims, before/after effect or watermarks. Do not imply visible contraction, treatment or guaranteed results. Produce one clean high-quality square image, natural texture and realistic hands.
+
+## Revisão de movimento
+
+A primeira versão tinha uma pequena variação de brilho, pouco perceptível no tamanho
+de exibição da página. A versão 2 amplia a região de destaque e acrescenta ondas
+expansivas e pontos de luz em movimento. O novo nome de arquivo evita reutilização
+do GIF anterior em cache. O efeito é gráfico e conceitual, sem simular uma demonstração
+real de contração muscular ou comprovar funcionamento saudável.
