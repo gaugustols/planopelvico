@@ -518,6 +518,14 @@ a:focus-visible,button:focus-visible,summary:focus-visible {
   font-size:14px
 }
 
+.price-display .payment-note {
+  margin-top:10px;
+  color:var(--muted);
+  font-size:10px;
+  line-height:1.6;
+  letter-spacing:1.5px
+}
+
 .hero-checks {
   display:flex;
   flex-wrap:wrap;
