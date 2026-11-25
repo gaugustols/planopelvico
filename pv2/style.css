@@ -227,7 +227,7 @@ footer p{font-size:.8125rem;color:var(--muted);max-width:none}
   .chips li{font-size:.875rem;line-height:1.65;letter-spacing:.005em}
   .hero .chips li{display:flex;align-items:center;justify-content:center;padding:10px 2px;font-size:clamp(.75rem,3.1vw,.875rem);font-weight:600;line-height:1.45;letter-spacing:0;color:var(--ink)}
   .button{width:100%;min-height:52px;padding:16px 17px;font-size:.8125rem;letter-spacing:.025em;overflow-wrap:anywhere}
-  .hero .small{font-size:.875rem;line-height:1.65;margin-top:15px}
+  .hero .small{font-size:.875rem;line-height:1.65;margin-top:15px;text-align:center}
   .hero-art{margin-top:40px;display:grid;grid-template-columns:minmax(0,1fr);gap:0}
   .phone{padding:25px}
   .phone-brand{margin-bottom:20px}
