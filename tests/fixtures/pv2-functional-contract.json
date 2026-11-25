@@ -1,0 +1,65 @@
+{
+  "jsSha256": "06ceda96aca1ae34977c313d47c228e029f45d755e88b9d22fbf72362376325e",
+  "sections": [
+    "inicio",
+    "identificacao",
+    "checklist",
+    "crenca",
+    "mecanismo",
+    "erros",
+    "metodo",
+    "demonstracao",
+    "prova",
+    "expectativa",
+    "calculadora",
+    "conteudo-oferta",
+    "oferta",
+    "garantia",
+    "alertas",
+    "faq",
+    "fechamento"
+  ],
+  "links": [
+    "#conteudo",
+    "#inicio",
+    "#oferta",
+    "#oferta",
+    "#crenca",
+    "#oferta",
+    "#oferta",
+    "#oferta",
+    "#oferta",
+    "#oferta",
+    "#inicio",
+    "#oferta"
+  ],
+  "inputs": [
+    "<input type=\"checkbox\" autocomplete=\"off\">",
+    "<input type=\"checkbox\" autocomplete=\"off\">",
+    "<input type=\"checkbox\" autocomplete=\"off\">",
+    "<input type=\"checkbox\" autocomplete=\"off\">",
+    "<input type=\"checkbox\" autocomplete=\"off\">",
+    "<input type=\"checkbox\" autocomplete=\"off\">",
+    "<input type=\"checkbox\" autocomplete=\"off\">",
+    "<input type=\"checkbox\" autocomplete=\"off\">",
+    "<input id=\"gasto\" type=\"number\" inputmode=\"decimal\" min=\"0\" max=\"10000\" step=\"0.01\" value=\"35\">",
+    "<input id=\"anos\" type=\"range\" min=\"1\" max=\"30\" value=\"5\">"
+  ],
+  "buttons": [
+    "<button class=\"button\" disabled>"
+  ],
+  "details": [
+    "<details open name=\"fases\">",
+    "<details  name=\"fases\">",
+    "<details  name=\"fases\">",
+    "<details open name=\"faq\">",
+    "<details  name=\"faq\">",
+    "<details  name=\"faq\">",
+    "<details  name=\"faq\">",
+    "<details  name=\"faq\">",
+    "<details  name=\"faq\">",
+    "<details  name=\"faq\">",
+    "<details  name=\"faq\">",
+    "<details  name=\"faq\">"
+  ]
+}
