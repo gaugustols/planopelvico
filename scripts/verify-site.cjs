@@ -23,9 +23,9 @@ const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map(match => match[1]);
 assert.equal(ids.length, new Set(ids).size, "Unique HTML identifiers");
 for (const [,id] of html.matchAll(/href="#([^"]+)"/g)) assert.ok(ids.includes(id), "Missing anchor " + id);
 assert.ok(!html.includes('href="#"'), "No dead placeholder links");
-assert.equal((html.match(/<section\b/g) || []).length, 15, "Reference structure has 15 main sections");
+assert.equal((html.match(/<section\b/g) || []).length, 16, "Landing page includes the reserved testimonials section");
 assert.equal((html.match(/<details name="faq">/g) || []).length, 8, "FAQ contains actual native accordions");
-console.log("PASS: 15 sections, heading structure, anchors and 8 FAQ accordions");
+console.log("PASS: 16 sections, heading structure, anchors and 8 FAQ accordions");
 
 const files = new Set();
 function checkFile(reference, from) {
@@ -51,7 +51,8 @@ for (const [,attributes] of html.matchAll(/<img\b([^>]+)>/g)) {
 console.log("PASS: " + files.size + " local assets, SVG symbols, image descriptions and dimensions");
 
 assert.ok(html.includes("R$ 29,90") && html.includes("6x de R$ 4,98"));
-assert.ok(!/R\$147|12x de R\$14,76|60-Day|Garantia de 30 dias/.test(html), "No imported or superseded offer terms");
+assert.ok(html.includes("30 dias de garantia incondicional."));
+assert.ok(!/R\$147|12x de R\$14,76|60-Day|Garantia de 7 dias/i.test(html), "No imported or superseded offer terms");
 const purchaseButtons = [...html.matchAll(/<button\b([^>]*\bdata-checkout[^>]*)>/g)];
 assert.equal(purchaseButtons.length, 3);
 assert.ok(purchaseButtons.every(match => /\bdisabled\b/.test(match[1])), "Checkout remains disabled until approved");
@@ -59,7 +60,7 @@ assert.ok(!/<iframe\b|<form\b/.test(html), "No extra checkout embeds, data colle
 assert.ok(fs.readFileSync(path.join(root,"assets/js/main.js"),"utf8").includes('const CHECKOUT_URL = "";'));
 assert.ok(css.includes("prefers-reduced-motion"));
 assert.ok(css.includes(":focus-visible"));
-console.log("PASS: approved price, 7-day guarantee, pending checkout, focus and reduced-motion support");
+console.log("PASS: approved price, 30-day guarantee, pending checkout, focus and reduced-motion support");
 const config = JSON.parse(fs.readFileSync(path.join(root,"vercel.json"),"utf8"));
 assert.equal(config.framework,null);
 assert.equal(config.buildCommand,"");
