@@ -278,7 +278,7 @@ footer p{font-size:.8125rem;color:var(--muted);max-width:none}
   .table-wrap tbody{display:grid;gap:12px}
   .table-wrap tbody tr{display:grid;grid-template-columns:minmax(0,1fr);padding:22px;border:1px solid var(--line);border-radius:4px}
   .table-wrap tbody th,.table-wrap tbody td{display:block;min-width:0;padding:0;border:0;font-size:var(--prose-size);line-height:1.7;letter-spacing:.005em}
-  .table-wrap tbody th{font-weight:600;color:var(--ink)}
+  .table-wrap tbody th{font-weight:600;color:var(--ink);text-align:center}
   .table-wrap tbody td{margin-top:12px}
   .proof{padding:24px 22px}
   .proof>div{flex:1;min-width:0}
