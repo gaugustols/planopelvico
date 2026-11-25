@@ -46,6 +46,6 @@ assert.ok(!/(?:linear|radial|conic)-gradient|box-shadow\s*:/.test(css), "No grad
 for (const [, radius] of css.matchAll(/border-radius:\s*([^;}]+)/g)) assert.ok(["0", "4px"].includes(radius), "Corners are at most 4px");
 assert.ok(css.includes("opacity:.03") && css.includes("position:fixed"));
 assert.ok(css.includes("-webkit-text-stroke:1px var(--line)"));
-assert.ok(css.includes("font-size:11.5vw") && css.includes("font-size:16vw"));
+assert.ok(css.includes("font-size:11.5vw") && css.includes("font-size:clamp(2.5rem,13vw,3.5rem)"));
 assert.ok(css.includes("prefers-reduced-motion") && css.includes(":focus-visible"));
 console.log("PASS: local fonts and texture, editorial palette/effects, tight typography and accessibility");

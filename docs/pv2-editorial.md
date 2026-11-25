@@ -8,8 +8,9 @@ A página principal, o aplicativo e as configurações da Vercel foram preservad
 - Fundo matte #181818, texto #EBDCC4, apoio #B6A596, acento #DC9F85,
   bordas #66473B e detalhes #35211A.
 - Clash Grotesk 700 e General Sans 400/500/600, em arquivos WOFF2 locais.
-- Caixa alta por CSS e entrelinha .85 nos títulos.
-- Destaque principal em 11.5vw no desktop e 16vw no celular. A continuação
+- Caixa alta por CSS e entrelinha .85 nos títulos; na hero móvel, 1.02 no
+  destaque e 1.12 na continuação, conforme ajuste posterior de legibilidade.
+- Destaque principal em 11.5vw no desktop e clamp(2.5rem, 13vw, 3.5rem) no celular. A continuação
   da headline usa uma escala menor para acomodar a copy longa sem alterá-la.
 - Contorno de 1px deslocado 4px atrás do título, com alternativa textual vazia.
 - Textura SVG fractal fixa, não interativa, com opacidade .03.

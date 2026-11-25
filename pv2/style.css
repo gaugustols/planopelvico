@@ -210,7 +210,7 @@ footer p{font-size:.8125rem;color:var(--muted);max-width:none}
   .bar .button{margin-left:auto;font-size:.6875rem;padding:10px 11px;max-width:46%;min-height:44px}
   .seal{display:none}
   .section{padding-block:60px}
-  h1{font-size:16vw}
+  h1{font-size:clamp(2.5rem,13vw,3.5rem);line-height:1.02;letter-spacing:-.015em;word-spacing:.14em}
   h2{font-size:clamp(2.6rem,11vw,4rem);margin-bottom:28px;max-width:none}
   h3{font-size:1.75rem}
   p{line-height:1.75}
@@ -218,7 +218,8 @@ footer p{font-size:.8125rem;color:var(--muted);max-width:none}
   .hero{grid-template-columns:minmax(0,1fr);gap:0}
   .hero h1{margin-bottom:28px;padding-bottom:32px;grid-column:1}
   .hero>div>p:not(.small),.hero .chips,.hero>div>.button,.hero .small,.hero-art{grid-column:1;grid-row:auto}
-  .headline-rest{font-size:.65em;margin-top:23px;max-width:none}
+  .headline-layer::before{top:2px;left:2px;opacity:.45;-webkit-text-stroke:.7px var(--line)}
+  .headline-rest{font-size:.7em;line-height:1.12;letter-spacing:0;word-spacing:.08em;margin-top:20px;max-width:none}
   .hero>div>p:not(.small){font-size:1.125rem;max-width:none}
   .hero .chips{margin:25px 0;gap:4px 17px}
   .chips li{font-size:.8125rem}
@@ -295,7 +296,7 @@ footer p{font-size:.8125rem;color:var(--muted);max-width:none}
   .wrap{width:calc(100% - 28px)}
   .bar .button{font-size:.625rem}
   .brand{font-size:.6875rem}
-  .hero h1{font-size:16vw}
+  .hero h1{font-size:clamp(2.5rem,13vw,3.5rem)}
   .checks label{padding:18px;gap:12px}
   .card{padding:25px 20px}
   .sticky{gap:8px;padding-inline:14px}
