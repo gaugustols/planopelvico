@@ -10,6 +10,9 @@ A página principal, o aplicativo e as configurações da Vercel foram preservad
 - Clash Grotesk 700 e General Sans 400/500/600, em arquivos WOFF2 locais.
 - Caixa alta por CSS e entrelinha .85 nos títulos; na hero móvel, 1.02 no
   destaque e 1.12 na continuação, conforme ajuste posterior de legibilidade.
+- Nos demais títulos móveis, h2 usa clamp(2rem, 8.5vw, 3rem) com entrelinha 1.1;
+  h3 usa clamp(1.25rem, 5.6vw, 1.5rem) com entrelinha 1.15, letras e palavras
+  mais espaçadas. As exceções da oferta e da demonstração seguem a mesma escala.
 - Destaque principal em 11.5vw no desktop e clamp(2.5rem, 13vw, 3.5rem) no celular. A continuação
   da headline usa uma escala menor para acomodar a copy longa sem alterá-la.
 - Contorno de 1px deslocado 4px atrás do título, com alternativa textual vazia.

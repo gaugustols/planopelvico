@@ -211,8 +211,8 @@ footer p{font-size:.8125rem;color:var(--muted);max-width:none}
   .seal{display:none}
   .section{padding-block:60px}
   h1{font-size:clamp(2.5rem,13vw,3.5rem);line-height:1.02;letter-spacing:-.015em;word-spacing:.14em}
-  h2{font-size:clamp(2.6rem,11vw,4rem);margin-bottom:28px;max-width:none}
-  h3{font-size:1.75rem}
+  h2{font-size:clamp(2rem,8.5vw,3rem);line-height:1.1;letter-spacing:-.012em;word-spacing:.12em;margin-bottom:28px;max-width:none}
+  h3{font-size:clamp(1.25rem,5.6vw,1.5rem);line-height:1.15;letter-spacing:0;word-spacing:.1em}
   p{line-height:1.75}
   .hero-section{padding-top:38px;padding-bottom:55px}
   .hero{grid-template-columns:minmax(0,1fr);gap:0}
@@ -262,7 +262,7 @@ footer p{font-size:.8125rem;color:var(--muted);max-width:none}
   thead th{font-size:.6875rem;letter-spacing:.07em}
   .table-wrap{margin-block:32px}
   .proof{padding:28px 23px}
-  .proof h3{font-size:1.75rem}
+  .proof h3{font-size:clamp(1.25rem,5.6vw,1.5rem)}
   .calc{gap:32px;padding:23px;margin:28px 0}
   .calc label{font-size:.875rem}
   .calc input[type="number"]{min-height:48px}
@@ -271,7 +271,7 @@ footer p{font-size:.8125rem;color:var(--muted);max-width:none}
   .value-list{margin-top:28px}
   .value-list li{padding:21px 0;font-size:1.125rem}
   .offer{grid-template-columns:minmax(0,1fr);padding:28px 22px;gap:0}
-  .offer h2{font-size:11vw;margin-bottom:30px}
+  .offer h2{font-size:clamp(2rem,8.5vw,3rem);margin-bottom:30px}
   .offer h2,.offer>p:first-of-type,.offer>.price,.offer>p:nth-of-type(3),.offer>.button,.offer>.small{grid-column:1;grid-row:auto}
   .offer>p:first-of-type{font-size:1rem;margin-bottom:36px}
   .offer>.price{font-size:clamp(3rem,15vw,5rem);margin-bottom:14px;white-space:normal}
