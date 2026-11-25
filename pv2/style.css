@@ -213,8 +213,8 @@ footer p{font-size:.8125rem;color:var(--muted);max-width:none}
   .seal{display:none}
   .section{padding-block:60px}
   h1{font-size:clamp(2.5rem,13vw,3.5rem);line-height:1.02;letter-spacing:-.015em;word-spacing:.14em}
-  h2{font-size:clamp(2rem,8.5vw,3rem);line-height:1.1;letter-spacing:-.012em;word-spacing:.12em;margin-bottom:28px;max-width:none}
-  h3{font-size:clamp(1.25rem,5.6vw,1.5rem);line-height:1.15;letter-spacing:0;word-spacing:.1em}
+  h2{font-size:clamp(2rem,8.5vw,3rem);line-height:1.1;letter-spacing:-.012em;word-spacing:.12em;margin-bottom:28px;margin-inline:auto;max-width:none;text-align:center}
+  h3{font-size:clamp(1.25rem,5.6vw,1.5rem);line-height:1.15;letter-spacing:0;word-spacing:.1em;text-align:center}
   p{font-size:var(--prose-size);line-height:1.8;letter-spacing:.01em;word-spacing:.04em;margin-bottom:1.35em}
   .hero-section{padding-top:38px;padding-bottom:55px}
   .hero{grid-template-columns:minmax(0,1fr);gap:0}
@@ -267,6 +267,7 @@ footer p{font-size:.8125rem;color:var(--muted);max-width:none}
   thead th{font-size:.8125rem;letter-spacing:.04em}
   .table-wrap{margin-block:32px}
   .proof{padding:28px 23px}
+  .proof>div{flex:1;min-width:0}
   .proof h3{font-size:clamp(1.25rem,5.6vw,1.5rem)}
   .calc{gap:32px;padding:23px;margin:28px 0}
   .calc label{font-size:.875rem}
