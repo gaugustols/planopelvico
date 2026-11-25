@@ -15,7 +15,7 @@ A página principal, o aplicativo e as configurações da Vercel foram preservad
   mais espaçadas. As exceções da oferta e da demonstração seguem a mesma escala.
 - Prosa móvel em 1.0625rem, entrelinha 1.8, espaçamento de letras .01em e de
   palavras .04em. Listas, cards, notas e FAQ acompanham a escala; textos de
-  apoio têm no mínimo 14px, e a tabela usa 16px no corpo. Títulos e preço
+  apoio têm no mínimo 14px, e os cards de recursos acompanham a prosa. Títulos e preço
   mantêm sua hierarquia. Todas essas alterações ficam na media query móvel.
 - Destaque principal em 11.5vw no desktop e clamp(2.5rem, 13vw, 3.5rem) no celular. A continuação
   da headline usa uma escala menor para acomodar a copy longa sem alterá-la.
@@ -45,6 +45,26 @@ acordeões, preço, garantia e checkout desativado mantêm os contratos anterior
     git diff --check
 
 As fixtures da PV2 foram capturadas da versão anterior ao redesign.
+
+## Refinamento de hierarquia e responsividade
+
+- Hero móvel com menos espaço acima do título, entre as frases e antes do CTA,
+  preservando as escalas de texto aprovadas e os três benefícios lado a lado.
+- Botões móveis com rótulo de 14px; cabeçalho e barra inferior com 12px.
+  Marcação mantém a última palavra junto à seta, sem alterar os rótulos.
+- Valor e parcelamento centralizados no bloco de oferta; letras do preço
+  menos comprimidas. Preço R$ 29,90 e 6x de R$ 4,98 preservado.
+- As sete linhas da comparação são cards abaixo de 701px. Cabeçalhos e todo
+  o texto permanecem visíveis. Papéis de tabela e relações de cabeçalho explícitos
+  mantêm a estrutura acessível; no tablet e desktop continua uma tabela.
+- Seções com intervalos mais compactos, menos vazios nos cards e fundos na cor
+  #35211A para checklist, conteúdo da oferta e garantia, dentro da paleta existente.
+- Nenhum link de checkout, estado de compra, cálculo ou conteúdo foi alterado.
+
+Verificação em 320×715, 390×844, 700, 768 e 1440 pixels: CTA inicial inteiro nas
+duas primeiras telas, sete cards no celular e linhas de tabela a partir de 701px.
+Sem rolagem horizontal. O contorno decorativo do título se desloca poucos pixels
+dentro da margem, conforme o efeito original, sem cortar o texto.
 
 Conferência visual em 320, 390, 768, 1024 e 1440 pixels: sem rolagem horizontal
 e sem componentes ultrapassando a tela. O checklist revelou a continuação com

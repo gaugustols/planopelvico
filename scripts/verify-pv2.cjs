@@ -26,6 +26,15 @@ assert.equal(jsHash, contract.jsSha256, "Checklist, calculator and sticky behavi
 const ids = extract(/\bid="([^"]+)"/g);
 assert.equal(ids.length, new Set(ids).size);
 for (const [, target] of html.matchAll(/href="#([^"]+)"/g)) assert.ok(ids.includes(target), "Valid anchor: " + target);
+// Explicit table roles retain relationships when the mobile layout becomes cards.
+const featureTable = html.match(/<table role="table">([\s\S]*?)<\/table>/);
+assert.ok(featureTable, "Resource/benefit content remains a semantic table");
+assert.equal((featureTable[0].match(/role="rowheader"/g) || []).length, 7);
+assert.equal((featureTable[0].match(/role="cell"/g) || []).length, 7);
+assert.equal((featureTable[0].match(/role="columnheader"/g) || []).length, 2);
+for (const [, headers] of featureTable[0].matchAll(/\bheaders="([^"]+)"/g)) {
+  for (const target of headers.split(" ")) assert.ok(ids.includes(target), "Valid table header: " + target);
+}
 assert.ok(!/<form\b/.test(html), "No email form or new data collection");
 assert.ok(!/INVITE ONLY|WAITING LIST|Batch 003|Zero spam/.test(html), "No foreign offer text");
 assert.ok(html.includes("R$ 29,90") && html.includes("6x de R$ 4,98"));
