@@ -202,6 +202,8 @@ footer p{font-size:.8125rem;color:var(--muted);max-width:none}
   .calc{padding:32px}
 }
 @media(max-width:700px){
+  /* Comfortable prose scale; display headings and purchase amounts keep their hierarchy. */
+  :root{--prose-size:1.0625rem}
   html{scroll-padding-top:83px;scroll-padding-bottom:calc(98px + env(safe-area-inset-bottom))}
   .wrap{width:calc(100% - 36px)}
   .bar{min-height:72px;gap:15px}
@@ -213,18 +215,18 @@ footer p{font-size:.8125rem;color:var(--muted);max-width:none}
   h1{font-size:clamp(2.5rem,13vw,3.5rem);line-height:1.02;letter-spacing:-.015em;word-spacing:.14em}
   h2{font-size:clamp(2rem,8.5vw,3rem);line-height:1.1;letter-spacing:-.012em;word-spacing:.12em;margin-bottom:28px;max-width:none}
   h3{font-size:clamp(1.25rem,5.6vw,1.5rem);line-height:1.15;letter-spacing:0;word-spacing:.1em}
-  p{line-height:1.75}
+  p{font-size:var(--prose-size);line-height:1.8;letter-spacing:.01em;word-spacing:.04em;margin-bottom:1.35em}
   .hero-section{padding-top:38px;padding-bottom:55px}
   .hero{grid-template-columns:minmax(0,1fr);gap:0}
   .hero h1{margin-bottom:28px;padding-bottom:32px;grid-column:1}
   .hero>div>p:not(.small),.hero .chips,.hero>div>.button,.hero .small,.hero-art{grid-column:1;grid-row:auto}
   .headline-layer::before{top:2px;left:2px;opacity:.45;-webkit-text-stroke:.7px var(--line)}
   .headline-rest{font-size:.7em;line-height:1.12;letter-spacing:0;word-spacing:.08em;margin-top:20px;max-width:none}
-  .hero>div>p:not(.small){font-size:1.125rem;max-width:none}
+  .hero>div>p:not(.small){font-size:1.125rem;line-height:1.75;max-width:none}
   .hero .chips{margin:25px 0;gap:4px 17px}
-  .chips li{font-size:.8125rem}
+  .chips li{font-size:.875rem;line-height:1.65;letter-spacing:.005em}
   .button{width:100%;min-height:52px;padding:16px 17px;font-size:.8125rem;letter-spacing:.025em;overflow-wrap:anywhere}
-  .hero .small{font-size:.75rem;margin-top:15px}
+  .hero .small{font-size:.875rem;line-height:1.65;margin-top:15px}
   .hero-art{margin-top:40px;display:grid;grid-template-columns:minmax(0,1fr);gap:0}
   .phone{padding:25px}
   .phone-brand{margin-bottom:20px}
@@ -235,31 +237,33 @@ footer p{font-size:.8125rem;color:var(--muted);max-width:none}
   .dial strong{font-size:5.5rem}
   .dial span{font-size:.75rem}
   .phone-action{padding-block:5px}
-  .hero-art figcaption{margin-top:15px;font-size:.75rem}
+  .hero-art figcaption{margin-top:15px;font-size:.875rem;line-height:1.65}
+  .hero-art figcaption span{font-size:.875rem}
   .lead .wrap{grid-template-columns:minmax(0,1fr)}
   .lead h2,.lead p{grid-column:1}
   .lead h2{margin-bottom:30px}
-  .lead p{font-size:1rem}
+  .lead p{font-size:var(--prose-size)}
   .split,.two,.three,.four,.checks,.calc,.guarantee{grid-template-columns:minmax(0,1fr)}
   .split{gap:30px}
   .pull{font-size:1.5rem;margin-top:28px}
-  .struck{gap:12px 20px;font-size:.875rem;margin-bottom:30px}
+  .struck{gap:14px 20px;font-size:.9375rem;line-height:1.7;margin-bottom:30px}
   .card{padding:28px 23px}
   .card h3{margin-bottom:20px;max-width:none}
+  .card p{font-size:var(--prose-size)}
   .step{margin-bottom:26px;font-size:.8125rem}
   .checks{gap:12px;margin:28px 0}
-  .checks label{min-height:70px;padding:20px;font-size:1rem}
+  .checks label{min-height:70px;padding:20px;font-size:var(--prose-size);line-height:1.75;letter-spacing:.005em;word-spacing:.03em}
   .diagram>div{padding:28px 13px 18px}
-  .diagram b,.diagram p{font-size:.8125rem}
+  .diagram b,.diagram p{font-size:.9375rem;line-height:1.7}
   .net{width:95px;margin-bottom:25px}
-  .note,.alert{margin:28px 0;padding:22px;font-size:1rem}
-  blockquote{font-size:1.5rem;padding-left:20px;margin:30px 0}
+  .note,.alert{margin:28px 0;padding:22px;font-size:var(--prose-size);line-height:1.8;letter-spacing:.01em;word-spacing:.04em}
+  blockquote{font-size:1.375rem;line-height:1.5;letter-spacing:0;word-spacing:.04em;padding-left:20px;margin:30px 0}
   .timeline,.faq{margin:28px 0 35px}
   .timeline details,.faq details{padding-block:21px}
   .timeline summary,.faq summary{font-size:1rem;min-height:44px}
-  .timeline p,.faq p{margin-top:14px;font-size:1rem}
-  td,th{padding:18px 11px;font-size:.875rem;line-height:1.65}
-  thead th{font-size:.6875rem;letter-spacing:.07em}
+  .timeline p,.faq p{margin-top:18px;font-size:var(--prose-size)}
+  td,th{padding:20px 11px;font-size:1rem;line-height:1.75;letter-spacing:.005em}
+  thead th{font-size:.8125rem;letter-spacing:.04em}
   .table-wrap{margin-block:32px}
   .proof{padding:28px 23px}
   .proof h3{font-size:clamp(1.25rem,5.6vw,1.5rem)}
@@ -269,24 +273,26 @@ footer p{font-size:.8125rem;color:var(--muted);max-width:none}
   .calc-result{padding:26px 0 5px;border-left:0;border-top:1px solid var(--line)}
   .calc-result output{font-size:clamp(2.75rem,12vw,4rem)}
   .value-list{margin-top:28px}
-  .value-list li{padding:21px 0;font-size:1.125rem}
+  .value-list li{padding:23px 0;font-size:var(--prose-size);line-height:1.8;letter-spacing:0;word-spacing:.04em}
+  .plain{font-size:var(--prose-size);line-height:1.8;letter-spacing:.01em;word-spacing:.04em}
+  .plain li{margin-bottom:20px}
   .offer{grid-template-columns:minmax(0,1fr);padding:28px 22px;gap:0}
   .offer h2{font-size:clamp(2rem,8.5vw,3rem);margin-bottom:30px}
   .offer h2,.offer>p:first-of-type,.offer>.price,.offer>p:nth-of-type(3),.offer>.button,.offer>.small{grid-column:1;grid-row:auto}
-  .offer>p:first-of-type{font-size:1rem;margin-bottom:36px}
+  .offer>p:first-of-type{font-size:var(--prose-size);margin-bottom:36px}
   .offer>.price{font-size:clamp(3rem,15vw,5rem);margin-bottom:14px;white-space:normal}
   .offer>p:nth-of-type(3){margin-bottom:25px}
-  .offer>.small{font-size:.75rem}
+  .offer>.small{font-size:.875rem;line-height:1.65}
   .price small{margin-top:13px;font-size:.75rem}
   .guarantee{gap:30px}
   .stamp{width:160px;padding:24px 10px}
   .stamp strong{font-size:6rem}
   .stamp span{margin-top:14px;font-size:.75rem}
-  #fechamento>.wrap>p{font-size:1rem}
-  #fechamento>.wrap>.small{font-size:.75rem}
+  #fechamento>.wrap>p{font-size:var(--prose-size)}
+  #fechamento>.wrap>.small{font-size:.875rem;line-height:1.65}
   footer{padding:35px 0 calc(125px + env(safe-area-inset-bottom))}
   footer .wrap{grid-template-columns:minmax(0,1fr);gap:24px}
-  footer p{font-size:.8125rem}
+  footer p{font-size:.875rem;line-height:1.8;letter-spacing:.01em;word-spacing:.04em}
   .sticky{position:fixed;inset:auto 0 0;z-index:15;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:12px;padding:14px max(18px,env(safe-area-inset-right)) calc(14px + env(safe-area-inset-bottom)) max(18px,env(safe-area-inset-left));border-top:1px solid var(--line);background:var(--background)}
   .sticky b{display:block;color:var(--ink);font-size:.8125rem;font-weight:500;line-height:1.4}
   .sticky span{display:block;font-size:.6875rem;color:var(--muted);margin-top:4px}

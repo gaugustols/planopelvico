@@ -13,6 +13,10 @@ A página principal, o aplicativo e as configurações da Vercel foram preservad
 - Nos demais títulos móveis, h2 usa clamp(2rem, 8.5vw, 3rem) com entrelinha 1.1;
   h3 usa clamp(1.25rem, 5.6vw, 1.5rem) com entrelinha 1.15, letras e palavras
   mais espaçadas. As exceções da oferta e da demonstração seguem a mesma escala.
+- Prosa móvel em 1.0625rem, entrelinha 1.8, espaçamento de letras .01em e de
+  palavras .04em. Listas, cards, notas e FAQ acompanham a escala; textos de
+  apoio têm no mínimo 14px, e a tabela usa 16px no corpo. Títulos e preço
+  mantêm sua hierarquia. Todas essas alterações ficam na media query móvel.
 - Destaque principal em 11.5vw no desktop e clamp(2.5rem, 13vw, 3.5rem) no celular. A continuação
   da headline usa uma escala menor para acomodar a copy longa sem alterá-la.
 - Contorno de 1px deslocado 4px atrás do título, com alternativa textual vazia.
