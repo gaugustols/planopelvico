@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 280">
+  <rect width="200" height="280" fill="#F5F0EB"/>
+  <!-- Hair -->
+  <path d="M74 38 Q76 22 100 20 Q124 22 126 38 Q130 46 126 52 Q120 44 110 42 Q100 40 90 42 Q80 44 74 52 Q70 46 74 38Z" fill="#6B4226"/>
+  <!-- Head -->
+  <ellipse cx="100" cy="52" rx="22" ry="24" fill="#E8C5A8"/>
+  <!-- Neck -->
+  <rect x="92" y="72" width="16" height="12" rx="5" fill="#E8C5A8"/>
+  <!-- Torso - leaning slightly forward in squat -->
+  <path d="M80 84 Q70 90 66 112 Q64 128 68 142 Q78 150 100 152 Q122 150 132 142 Q136 128 134 112 Q130 90 120 84 Q112 78 100 77 Q88 78 80 84Z" fill="#F0E0CC"/>
+  <rect x="88" y="78" width="7" height="12" rx="3.5" fill="#E0CEBC"/>
+  <rect x="105" y="78" width="7" height="12" rx="3.5" fill="#E0CEBC"/>
+  <!-- Arms out in balance/prayer position -->
+  <path d="M70 92 Q52 96 44 110 Q40 120 48 124 Q56 116 62 106Z" fill="#E8C5A8"/>
+  <path d="M130 92 Q148 96 156 110 Q160 120 152 124 Q144 116 138 106Z" fill="#E8C5A8"/>
+  <!-- Hands together (prayer) -->
+  <path d="M42 120 Q50 124 58 120 Q54 112 42 120Z" fill="#E8C5A8"/>
+  <path d="M142 120 Q150 124 158 120 Q154 112 142 120Z" fill="#E8C5A8"/>
+  <!-- Leggings - squat position, wide stance -->
+  <path d="M68 142 Q58 158 52 178 Q48 198 54 210 Q62 208 70 206 Q72 188 74 170 Q76 158 80 150Z" fill="#7B3D3D"/>
+  <path d="M132 142 Q142 158 148 178 Q152 198 146 210 Q138 208 130 206 Q128 188 126 170 Q124 158 120 150Z" fill="#7B3D3D"/>
+  <!-- Upper legs wider apart (squat) -->
+  <path d="M80 150 Q72 168 72 190 Q80 208 96 210 Q86 196 84 174 Q82 162 80 150Z" fill="#7B3D3D"/>
+  <path d="M120 150 Q128 168 128 190 Q120 208 104 210 Q114 196 116 174 Q118 162 120 150Z" fill="#7B3D3D"/>
+  <!-- Shoes squat wide -->
+  <ellipse cx="58" cy="210" rx="18" ry="9" fill="#5A3030"/>
+  <ellipse cx="142" cy="210" rx="18" ry="9" fill="#5A3030"/>
+  <!-- Knee indicators (bent) -->
+  <circle cx="72" cy="190" r="8" fill="none" stroke="#DBC8B4" stroke-width="2"/>
+  <circle cx="128" cy="190" r="8" fill="none" stroke="#DBC8B4" stroke-width="2"/>
+</svg>

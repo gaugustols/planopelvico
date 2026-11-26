@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220">
+  <rect width="400" height="220" fill="#EDE8E2"/>
+  <!-- Pillow -->
+  <rect x="20" y="80" width="120" height="80" rx="30" fill="#F8F2EC"/>
+  <path d="M30 90 Q80 84 130 90" stroke="#EDE4D8" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Blanket/duvet -->
+  <path d="M100 140 Q160 134 300 138 Q360 140 380 150 L380 200 Q200 204 100 200Z" fill="#C4A882"/>
+  <path d="M100 140 Q160 130 300 134 Q360 136 380 148" stroke="#B89870" stroke-width="1.5" fill="none"/>
+  <!-- Blanket folds -->
+  <path d="M150 140 Q160 134 170 140" stroke="#B89870" stroke-width="1" fill="none" stroke-linecap="round"/>
+  <path d="M220 138 Q230 132 240 138" stroke="#B89870" stroke-width="1" fill="none" stroke-linecap="round"/>
+  <!-- Body under blanket -->
+  <path d="M100 150 Q160 144 280 148 Q320 150 340 155" stroke="#B89870" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Hair on pillow -->
+  <path d="M52 106 Q72 88 100 90 Q118 92 128 102 Q120 98 100 96 Q78 94 62 110Z" fill="#6B4226"/>
+  <path d="M44 118 Q48 102 56 100 Q50 112 50 124Z" fill="#6B4226"/>
+  <!-- Face - side view sleeping -->
+  <ellipse cx="90" cy="112" rx="30" ry="26" fill="#E8C5A8"/>
+  <!-- Closed eye -->
+  <path d="M82 108 Q90 104 98 108" stroke="#9B6B4A" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Small smile -->
+  <path d="M80 118 Q88 122 96 118" stroke="#C8926A" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Nose -->
+  <circle cx="88" cy="114" r="2" fill="#D4A880"/>
+  <!-- Neck -->
+  <path d="M108 118 Q116 124 120 136" stroke="#E8C5A8" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- Shoulder under blanket hint -->
+  <path d="M115 140 Q130 136 148 140" stroke="#F0E0CC" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- Z Z Z sleep symbols -->
+  <text x="155" y="70" font-family="sans-serif" font-size="22" font-weight="bold" fill="#5BA3C9" opacity="0.7">z</text>
+  <text x="178" y="50" font-family="sans-serif" font-size="28" font-weight="bold" fill="#5BA3C9" opacity="0.5">z</text>
+  <text x="208" y="32" font-family="sans-serif" font-size="34" font-weight="bold" fill="#5BA3C9" opacity="0.35">z</text>
+</svg>

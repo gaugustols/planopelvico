@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 280">
+  <rect width="200" height="280" fill="#F5F0EB"/>
+  <!-- Chair back -->
+  <rect x="30" y="110" width="12" height="110" rx="6" fill="#C8B89A"/>
+  <rect x="158" y="110" width="12" height="110" rx="6" fill="#C8B89A"/>
+  <rect x="26" y="106" width="148" height="14" rx="7" fill="#B8A888"/>
+  <!-- Chair seat -->
+  <rect x="38" y="190" width="124" height="18" rx="9" fill="#B8A888"/>
+  <!-- Chair legs -->
+  <rect x="42" y="204" width="10" height="52" rx="5" fill="#C8B89A"/>
+  <rect x="148" y="204" width="10" height="52" rx="5" fill="#C8B89A"/>
+  <!-- Hair -->
+  <path d="M74 46 Q76 28 100 26 Q124 28 126 46 Q130 54 126 60 Q120 52 110 50 Q100 48 90 50 Q80 52 74 60 Q70 54 74 46Z" fill="#6B4226"/>
+  <!-- Head -->
+  <ellipse cx="100" cy="58" rx="24" ry="26" fill="#E8C5A8"/>
+  <!-- Neck -->
+  <rect x="92" y="80" width="16" height="16" rx="6" fill="#E8C5A8"/>
+  <!-- Body seated - torso -->
+  <path d="M78 96 Q68 104 66 128 Q65 148 68 168 Q80 178 100 180 Q120 178 132 168 Q135 148 134 128 Q132 104 122 96 Q114 90 100 89 Q86 90 78 96Z" fill="#F0E0CC"/>
+  <!-- Straps -->
+  <rect x="88" y="89" width="7" height="14" rx="3.5" fill="#E0CEBC"/>
+  <rect x="105" y="89" width="7" height="14" rx="3.5" fill="#E0CEBC"/>
+  <!-- Left arm hanging down -->
+  <path d="M68 100 Q52 112 46 138 Q44 152 52 154 Q60 140 64 120Z" fill="#E8C5A8"/>
+  <!-- Right arm raised (tai chi position) -->
+  <path d="M132 100 Q148 88 158 68 Q164 54 156 48 Q148 56 140 72 Q134 86 130 100Z" fill="#E8C5A8"/>
+  <!-- Right hand open -->
+  <ellipse cx="158" cy="46" rx="10" ry="8" fill="#E8C5A8"/>
+  <!-- Left hand -->
+  <ellipse cx="50" cy="155" rx="9" ry="7" fill="#E8C5A8"/>
+  <!-- Leggings on seat -->
+  <path d="M68 168 Q66 180 68 192 L80 192 Q82 182 82 170Z" fill="#7B3D3D"/>
+  <path d="M132 168 Q134 180 132 192 L120 192 Q118 182 118 170Z" fill="#7B3D3D"/>
+  <!-- Leggings legs -->
+  <path d="M68 192 Q62 222 64 256 L82 256 Q84 228 82 192Z" fill="#7B3D3D"/>
+  <path d="M132 192 Q138 222 136 256 L118 256 Q116 228 118 192Z" fill="#7B3D3D"/>
+  <!-- Shoes -->
+  <ellipse cx="73" cy="256" rx="14" ry="8" fill="#5A3030"/>
+  <ellipse cx="127" cy="256" rx="14" ry="8" fill="#5A3030"/>
+</svg>

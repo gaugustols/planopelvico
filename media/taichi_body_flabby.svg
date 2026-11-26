@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240">
+  <defs>
+    <linearGradient id="sk_flabby" x1="0.25" y1="0" x2="0.75" y2="1">
+      <stop offset="0%"   stop-color="#F7CAA8"/>
+      <stop offset="100%" stop-color="#CE8D67"/>
+    </linearGradient>
+    <linearGradient id="tp_flabby" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0%"   stop-color="#92C3D4"/>
+      <stop offset="100%" stop-color="#5490A8"/>
+    </linearGradient>
+    <linearGradient id="bt_flabby" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0%"   stop-color="#547488"/>
+      <stop offset="100%" stop-color="#38546A"/>
+    </linearGradient>
+    <radialGradient id="hl_flabby" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="rgb(245,158,11)" stop-opacity="0.52"/>
+      <stop offset="55%"  stop-color="rgb(245,158,11)" stop-opacity="0.11"/>
+      <stop offset="100%" stop-color="rgb(245,158,11)" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="bc_flabby"><path d="M 107 52 C 111 57 145 63 143 68 C 147 77 138 86 133 90 C 131 98  128 102 126 106 C 157 109 154 111 152 114 C 150 118 136 121 134 124 C 142 129  152 132 150 136 C 148 142 144 149 142 154 C 144 162 129 171 127 177 C 129 191 117 208 114 217 C 121 221    123  228 119 232 L 81 232 C 77  228 79   221 86 217 C 83 208 71 191 73 177 C 71 171 56 162 58 154 C 56 149 52 142 50 136 C 48 132 58  129 66 124 C 64 121 50 118 48 114 C 46 111 43 109 74 106 C 72 102 69 98  67 90 C 62 86  53 77  57 68 C 55 63  89  57  93 52 Z"/></clipPath>
+  </defs>
+
+  <rect width="200" height="240" fill="#EEEAE4"/>
+
+  <!-- Hair back -->
+  <ellipse cx="100" cy="27" rx="23" ry="28" fill="#1C0C08"/>
+  <path d="M77 35 Q69 80 73 130" stroke="#1C0C08" stroke-width="17" fill="none" stroke-linecap="round"/>
+  <path d="M123 35 Q131 80 127 130" stroke="#1C0C08" stroke-width="17" fill="none" stroke-linecap="round"/>
+
+  <!-- Body pants -->
+  <path d="M 107 52 C 111 57 145 63 143 68 C 147 77 138 86 133 90 C 131 98  128 102 126 106 C 157 109 154 111 152 114 C 150 118 136 121 134 124 C 142 129  152 132 150 136 C 148 142 144 149 142 154 C 144 162 129 171 127 177 C 129 191 117 208 114 217 C 121 221    123  228 119 232 L 81 232 C 77  228 79   221 86 217 C 83 208 71 191 73 177 C 71 171 56 162 58 154 C 56 149 52 142 50 136 C 48 132 58  129 66 124 C 64 121 50 118 48 114 C 46 111 43 109 74 106 C 72 102 69 98  67 90 C 62 86  53 77  57 68 C 55 63  89  57  93 52 Z" fill="url(#bt_flabby)"/>
+  <!-- Body shirt (clipped) -->
+  <rect x="36" y="50" width="128" height="74" fill="url(#tp_flabby)" clip-path="url(#bc_flabby)"/>
+
+  <!-- Arms -->
+  <path d="M 140 70 C 153 80 155 100 153 116 C 151 129 136 139 134 143 C 128 139 125 128 129 116 C 131 100 139 81 133 70 Z" fill="url(#sk_flabby)"/>
+  <path d="M 60 70 C 47 80 45 100 47 116 C 49 129 64 139 66 143 C 72 139 75 128 71 116 C 69 100 61 81 67 70 Z" fill="url(#sk_flabby)"/>
+
+  <!-- Neck -->
+  <rect x="93" y="50" width="14" height="18" rx="3" fill="url(#sk_flabby)"/>
+
+  <!-- Head -->
+  <ellipse cx="100" cy="28" rx="21" ry="24" fill="url(#sk_flabby)"/>
+
+  <!-- Hair front -->
+  <ellipse cx="100" cy="8"  rx="21" ry="12" fill="#1C0C08"/>
+  <path d="M79 23 C76 14 79 5 83 3"     stroke="#1C0C08" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M121 23 C124 14 121 5 117 3" stroke="#1C0C08" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyes -->
+  <ellipse cx="92"  cy="26" rx="2.2" ry="2.6" fill="#1A0E08"/>
+  <ellipse cx="108" cy="26" rx="2.2" ry="2.6" fill="#1A0E08"/>
+  <ellipse cx="91.5" cy="25.2" rx="0.7" ry="0.7" fill="white" fill-opacity="0.55"/>
+  <ellipse cx="107.5" cy="25.2" rx="0.7" ry="0.7" fill="white" fill-opacity="0.55"/>
+  <!-- Brows -->
+  <path d="M88 21 Q92 19 96 21"   stroke="#1A0E08" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M104 21 Q108 19 112 21" stroke="#1A0E08" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Nose -->
+  <path d="M99 31 Q100 34 101 31" stroke="#BE8A6A" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <!-- Lips -->
+  <path d="M95 36 Q100 40 105 36" stroke="#C06858" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+
+  <!-- Highlight glow -->
+  <ellipse cx="100" cy="114" rx="54" ry="26" fill="url(#hl_flabby)"/>
+  <ellipse cx="100" cy="114" rx="54" ry="26" fill="none"
+    stroke="rgb(245,158,11)" stroke-width="1.8" stroke-opacity="0.57" stroke-dasharray="5 3"/>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240">
+  <defs>
+    <linearGradient id="sk_extra" x1="0.25" y1="0" x2="0.75" y2="1">
+      <stop offset="0%"   stop-color="#F7CAA8"/>
+      <stop offset="100%" stop-color="#CE8D67"/>
+    </linearGradient>
+    <linearGradient id="tp_extra" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0%"   stop-color="#92C3D4"/>
+      <stop offset="100%" stop-color="#5490A8"/>
+    </linearGradient>
+    <linearGradient id="bt_extra" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0%"   stop-color="#547488"/>
+      <stop offset="100%" stop-color="#38546A"/>
+    </linearGradient>
+    <radialGradient id="hl_extra" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="rgb(245,158,11)" stop-opacity="0.56"/>
+      <stop offset="55%"  stop-color="rgb(245,158,11)" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="rgb(245,158,11)" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="bc_extra"><path d="M 107 52 C 111 57 146 63 144 68 C 148 77 139 86 134 90 C 132 98  129 102 127 106 C 170 109 167 111 165 114 C 163 118 142 121 140 124 C 148 129  158 132 156 136 C 154 142 151 149 149 154 C 151 162 133 171 131 177 C 133 191 117 208 114 217 C 121 221    123  228 119 232 L 81 232 C 77  228 79   221 86 217 C 83 208 67 191 69 177 C 67 171 49 162 51 154 C 49 149 46 142 44 136 C 42 132 52  129 60 124 C 58 121 37 118 35 114 C 33 111 30 109 73 106 C 71 102 68 98  66 90 C 61 86  52 77  56 68 C 54 63  89  57  93 52 Z"/></clipPath>
+  </defs>
+
+  <rect width="200" height="240" fill="#EEEAE4"/>
+
+  <!-- Hair back -->
+  <ellipse cx="100" cy="27" rx="23" ry="28" fill="#1C0C08"/>
+  <path d="M77 35 Q69 80 73 130" stroke="#1C0C08" stroke-width="17" fill="none" stroke-linecap="round"/>
+  <path d="M123 35 Q131 80 127 130" stroke="#1C0C08" stroke-width="17" fill="none" stroke-linecap="round"/>
+
+  <!-- Body pants -->
+  <path d="M 107 52 C 111 57 146 63 144 68 C 148 77 139 86 134 90 C 132 98  129 102 127 106 C 170 109 167 111 165 114 C 163 118 142 121 140 124 C 148 129  158 132 156 136 C 154 142 151 149 149 154 C 151 162 133 171 131 177 C 133 191 117 208 114 217 C 121 221    123  228 119 232 L 81 232 C 77  228 79   221 86 217 C 83 208 67 191 69 177 C 67 171 49 162 51 154 C 49 149 46 142 44 136 C 42 132 52  129 60 124 C 58 121 37 118 35 114 C 33 111 30 109 73 106 C 71 102 68 98  66 90 C 61 86  52 77  56 68 C 54 63  89  57  93 52 Z" fill="url(#bt_extra)"/>
+  <!-- Body shirt (clipped) -->
+  <rect x="36" y="50" width="128" height="74" fill="url(#tp_extra)" clip-path="url(#bc_extra)"/>
+
+  <!-- Arms -->
+  <path d="M 141 70 C 154 80 156 100 154 116 C 152 129 137 139 135 143 C 129 139 126 128 130 116 C 132 100 140 81 134 70 Z" fill="url(#sk_extra)"/>
+  <path d="M 59 70 C 46 80 44 100 46 116 C 48 129 63 139 65 143 C 71 139 74 128 70 116 C 68 100 60 81 66 70 Z" fill="url(#sk_extra)"/>
+
+  <!-- Neck -->
+  <rect x="93" y="50" width="14" height="18" rx="3" fill="url(#sk_extra)"/>
+
+  <!-- Head -->
+  <ellipse cx="100" cy="28" rx="21" ry="24" fill="url(#sk_extra)"/>
+
+  <!-- Hair front -->
+  <ellipse cx="100" cy="8"  rx="21" ry="12" fill="#1C0C08"/>
+  <path d="M79 23 C76 14 79 5 83 3"     stroke="#1C0C08" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M121 23 C124 14 121 5 117 3" stroke="#1C0C08" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyes -->
+  <ellipse cx="92"  cy="26" rx="2.2" ry="2.6" fill="#1A0E08"/>
+  <ellipse cx="108" cy="26" rx="2.2" ry="2.6" fill="#1A0E08"/>
+  <ellipse cx="91.5" cy="25.2" rx="0.7" ry="0.7" fill="white" fill-opacity="0.55"/>
+  <ellipse cx="107.5" cy="25.2" rx="0.7" ry="0.7" fill="white" fill-opacity="0.55"/>
+  <!-- Brows -->
+  <path d="M88 21 Q92 19 96 21"   stroke="#1A0E08" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M104 21 Q108 19 112 21" stroke="#1A0E08" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Nose -->
+  <path d="M99 31 Q100 34 101 31" stroke="#BE8A6A" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <!-- Lips -->
+  <path d="M95 36 Q100 40 105 36" stroke="#C06858" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+
+  <!-- Highlight glow -->
+  <ellipse cx="100" cy="116" rx="67" ry="32" fill="url(#hl_extra)"/>
+  <ellipse cx="100" cy="116" rx="67" ry="32" fill="none"
+    stroke="rgb(245,158,11)" stroke-width="1.8" stroke-opacity="0.62" stroke-dasharray="5 3"/>
+</svg>
