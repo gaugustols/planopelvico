@@ -41,9 +41,9 @@
   document.addEventListener('click', (event) => {
     const button = event.target.closest?.('button');
     if (!button || !location.pathname.includes('/checkout/')) return;
-    if (button.textContent.trim().toLowerCase() !== 'get my plan') return;
+    if (!['get my plan', 'quero o meu plano'].includes(button.textContent.trim().toLowerCase())) return;
     event.preventDefault();
     event.stopImmediatePropagation();
-    window.alert('Pagamento desativado nesta demonstração.');
+    window.alert('Os pagamentos estão desativados.');
   }, true);
 })();
